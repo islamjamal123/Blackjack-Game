@@ -41,6 +41,10 @@ function startGame() {
     newButton.disabled = false;
     startButton.disabled = true;
 
+    cardsDealt.textContent = "Cards: ";
+    sumCards.textContent = "Sum: ";
+    questions.textContent = "Do you want to draw a new card?";
+
 }
 
 
